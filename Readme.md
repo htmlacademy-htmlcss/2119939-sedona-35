@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Наталья Тименкова](https://up.htmlacademy.ru/htmlcss/35/user/2119939).
-* Наставник: [Виктор Рыбаков].
+* Наставник: [Виктор Рыбаков] (https://htmlacademy.ru/profile/viktor-rybakov).
 
 ---
 

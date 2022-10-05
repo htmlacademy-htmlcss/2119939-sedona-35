@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/ptsans-400.woff2") format("woff2"),
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans Bold";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/ptsans-700.woff2") format("woff2"),
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  background-color: #FFFFFF;
+  color: #333333;
+}
+
+.page-header {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.navigation-link {
+  font-family: "PT Sans Bold", sans-serif;
+  font-weight: 700;
+  color:#000000;
+  font-size: 20px;
+  line height: 24px;
+  background-color: #FFFFFF;
+  text-decoration: none;
+}
+
+.button {
+  font-family: 'PT Sans Bold';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #756157;
+  color: #FFFFFF;
+  text-transform: uppercase;
+
+}
+
+.main-index {
+  background-color: #FFFFFF;
+  color: #333333;
+}
+
+.hero {
+  background-image: url("../images/index_background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #756157;
+  color: #FFFFFF;
+}
+
+.advantages,
+.search,
+.subscribe {
+  text-align: center;
+}
+
+.advantages-title {
+  font-family: "PT Sans Bold", sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  color:#000000;
+}
+
+
+.advantages-item {
+  background-color: #83B3D31F;
+}
+
+.advantages-item:first-child,
+.advantages-item:last-child {
+  background-color:  #82B3D3;
+}
+
+.advantages-item:nth-child(3) {
+  background-color: #83b3d333;
+}
+
+.advantages-item-title,
+.advantages-special-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color:#000000;
+}
+
+.advantages-item-title:first-child,
+.advantages-item-title:last-child {
+  color: #FFFFFF;
+}
+/* Вот это почему-то не работает и распространяется на все заголовки! */
+
+
+
+.advantages-special-item {
+  background-color: #83b3d31f;
+}
+
+.advantages-special-item:nth-child(2) {
+  background-color: #FFFFFF;
+}
+
+.advantages-special-description {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+
+.search-title {
+  font-family: "PT Sans Bold";
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.subscribe {
+  background-image: url('../images/background_subscribe.jpg');
+  background-size: 100% auto;
+  /* непонятно, как ширину и высоту бэкграунда настраивать */
+  background-color: #82B3D3;
+  color: #FFFFFF;
+}
+
+.subscribe-button {
+  background-color: #82B3D3;
+
+}
+
+.subscribe-field {
+  background-color: #F2F2F2;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer-phone-number {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color:#000000;
+
+}

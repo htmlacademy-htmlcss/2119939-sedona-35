@@ -12,6 +12,7 @@
   font-style: normal;
   src: url("../fonts/ptsans-700.woff2") format("woff2"),
   font-display: swap;
+
 }
 
 html {
@@ -29,15 +30,27 @@ body {
   background-color:#F2F2F2;
   color: #333333;
   margin: 0;
+}
 
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow:hidden;
 }
 
 .body-wrapper {
   background-color: #FFFFFF;
   margin: 0 auto;
   width: 1200px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 
 }
 
@@ -45,37 +58,40 @@ body {
   flex-grow: 1;
 }
 
-.visually-hidden {
-  margin: 0;
-}
 
 .page-header {
   background-color: #FFFFFF;
   color: #000000;
-  height: 64px;
+  min-height: 64px;
 }
 
 .navigation {
   display: flex;
+  flex-wrap: wrap;
   margin-left: 70px;
   margin-right: 70px;
 }
 
-.navigation-list {
-  display: flex;
-  list-style-type: none;
+.navigation-logo{
+  margin-right: 44px;
 }
 
-.navigation-item {
-  margin-right: 32px;
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+
 }
 
 .navigation-user {
   display: flex;
+  flex-wrap: wrap;
   margin-left: auto;
+
 }
 
 .navigation-link {
+  display: block;
   font-weight: 700;
   color:#000000;
   font-size: 20px;
@@ -84,6 +100,7 @@ body {
   text-decoration: none;
 
 }
+
 
 .button {
   font-weight: 700;
@@ -184,6 +201,7 @@ body {
 
 .advantages-special-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   list-style-type: none;
   margin: 0;
@@ -295,6 +313,8 @@ body {
 }
 
 .footer-social {
+  display: flex;
+  flex-wrap: wrap;
   margin-left: 82px;
 }
 
@@ -521,6 +541,7 @@ background-color: #7DB54F;
   width: 60px;
   height: 60px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }

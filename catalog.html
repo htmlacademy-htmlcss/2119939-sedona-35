@@ -24,23 +24,20 @@
             <a class="navigation-link navigation-link-current" href="#">Гостиницы</a>
           </li>
         </ul>
-        <ul class="navigation-list navigation-user">
-          <li class="navigation-user-item navigation-user-search">
-            <a class="navigation-user-link" href="#">
-              <span class="visually-hidden">Поиск
-              </span>
-              </a>
+        <ul class="navigation-user">
+          <li class="navigation-user-item navigation-search">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">Поиск.</span>
+            </a>
           </li>
-          <li class="navigation-user-item navigation-user-favourite">
-            <a class="navigation-user-link" href="#">
-              <span class="visually-hidden">Избранное</span>
+          <li class="navigation-user-item navigation-like">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">Избранное.</span>
               <span class="likes-number">12</span>
-              </a>
-          </li>
-          <li class="navigation-user-item">
-            <a class="navigation-user-link button header-button" href="catalog.html">Хочу сюда!</a>
+            </a>
           </li>
         </ul>
+        <button type="button" class="button header-button">Хочу сюда!</button>
       </nav>
     </header>
 
@@ -48,17 +45,16 @@
       <section class="hotels-sedona">
       <h1 class="hotels-sedona-title">Гостиницы Седоны</h1>
       <ul class="breadcrumbs">
-          <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link" href="index.html">
-              <span class="visually-hidden">Главная</span></a>
-
-          </li>
-          <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link" href="catalog.html">Гостиницы</a>
-
+        <li class="breadcrumbs-home">
+          <a class="" href="index.html">
+            <span class="visually-hidden">Главная.</span>
+          </a>
+        </li>
+        <li class="">
+          <a class="">
+            <span class="breadcrumbs-text">Гостиницы</span></a>
         </li>
       </ul>
-
 
       <form class="search-filter" action="https://echo.htmlacademy.ru/" method="get">
         <fieldset class="search-filter-group">
@@ -143,7 +139,7 @@
       <section class="search-results">
         <h2 class="visually-hidden">Результаты поиска</h2>
           <div class="search-results-container">
-            <p class="search-results-number">Найдено гостиниц: 38</p>
+            <span class="search-results-number">Найдено гостиниц: 38</span>
 
             <select class="select-control" aria-label="Сортировка">
               <option value="cheap">Сначала дешевые</option>

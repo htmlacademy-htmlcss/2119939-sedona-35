@@ -26,12 +26,12 @@
         </ul>
         <ul class="navigation-user">
           <li class="navigation-user-item navigation-search">
-            <a class="navigation-link" href="#">
+            <a class="navigation-user-link" href="#">
               <span class="visually-hidden">Поиск.</span>
             </a>
           </li>
           <li class="navigation-user-item navigation-like">
-            <a class="navigation-link" href="#">
+            <a class="navigation-user-link" href="#">
               <span class="visually-hidden">Избранное.</span>
               <span class="likes-number">12</span>
             </a>
@@ -193,29 +193,41 @@
           <span class="checkin">Дата заезда:</span>
 
             <label class="visually-hidden" for="checkin">Дата заезда:</label>
-            <input class="datein" type="date" id="checkin" placeholder="27 апреля 2020" value="27 апреля 2020">
+            <input class="datein" type="text" id="checkin" placeholder="27 апреля 2020" value="27 апреля 2020">
             <span class="modal-error">Мы не можем отправить вас в прошлое.</span>
 
               <span class="checkout">Дата выезда:</span>
             <label class="visually-hidden" for="checkout">Дата выезда:</label>
-            <input class="dateout" type="date" id="checkout" placeholder="1 сентября 2023">
+            <input class="dateout" type="text" id="checkout" placeholder="1 сентября 2023">
             <span class="checkout-message">На эти даты есть свободные номера. Пока есть.</span>
 
 
             <span class="adults">Взрослые:</span>
               <div class="adultsnumber">
-              <span class="change minus">-</span>
-              <input class="input-number" type="text" name="productСount" value="2" disabled="">
-              <span class="change plus">+</span>
+              <button class="modal-change minus" type="button"></button>
+              <input class="input-number" id="adult" name="adult" type="number" value="2">
+              <button class="modal-change plus"></buttton>
               </div>
 
 
-            <span class="kids">Дети:</span>
+            <span class="kids">Дети:
+              <span class="tooltip">
+                <button class="tooltip-toggle" type="button">
+
+                <svg class="tooltop-icon" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="13" cy="13" r="13" fill="#83B3D3"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 7H14V9H12V7ZM14 19H12V10H14V19Z" fill="white"/>
+                </svg>
+                </button>
+
+              </span>
+            </span>
+
               <div class="kidsnumber">
-              <span class="kids-info">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
-              <span class="change minus">-</span>
-              <input class="input-number" type="text" name="productСount" value="2" disabled="">
-              <span class="change plus">+</span>
+              <span class="tooltip-text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+              <button class="modal-change minus" type="button"></button>
+              <input class="input-number" id="kkid" name="kid" type="number" value="2">
+              <button class="modal-change plus"></buttton>
               </div>
 
 

@@ -26,12 +26,12 @@
         </ul>
         <ul class="navigation-user">
           <li class="navigation-user-item navigation-search">
-            <a class="navigation-link" href="#">
+            <a class="navigation-user-link" href="#">
               <span class="visually-hidden">Поиск.</span>
             </a>
           </li>
           <li class="navigation-user-item navigation-like">
-            <a class="navigation-link" href="#">
+            <a class="navigation-user-link" href="#">
               <span class="visually-hidden">Избранное.</span>
               <span class="likes-number">12</span>
             </a>
@@ -62,21 +62,24 @@
           <ul class="search-filter-list">
             <li class="search-filter-item">
             <label class="control">
-            <input class="control-input" type="checkbox" name="swimmingpool" checked>
+            <input class="control-input visually-hidden" type="checkbox" name="swimmingpool" checked>
+            <span class="control-mark"></span>
             Бассейн
             </label>
             </li>
 
             <li class="search-filter-item">
             <label class="control">
-            <input class="control-input" type="checkbox" name="parking" checked>
+            <input class="control-input visually-hidden" type="checkbox" name="parking" checked>
+            <span class="control-mark"></span>
             Парковка
             </label>
             </li>
 
             <li class="search-filter-item">
             <label class="control">
-            <input class="control-input" type="checkbox" name="Wi-Fi">
+            <input class="control-input visually-hidden" type="checkbox" name="Wi-Fi">
+            <span class="control-mark"></span>
             Wi-Fi
             </label>
             </li>
@@ -88,21 +91,24 @@
           <ul class="search-filter-list">
             <li class="search-filter-item">
               <label class="control">
-                <input class="control-input" type="radio" name="house-type-group" value="hotel" checked>
+                <input class="control-input visually-hidden" type="radio" name="house-type-group" value="hotel" checked>
+                <span class="control-mark"></span>
                 Гостиница
               </label>
             </li>
 
             <li class="search-filter-item">
               <label class="control">
-                <input class="control-input" type="radio" name="house-type-group" value="motel">
+                <input class="control-input visually-hidden" type="radio" name="house-type-group" value="motel">
+                <span class="control-mark"></span>
                 Мотель
               </label>
             </li>
 
             <li class="search-filter-item">
               <label class="control">
-                <input class="control-input" type="radio" name="house-type-group" value="apartments">
+                <input class="control-input visually-hidden" type="radio" name="house-type-group" value="apartments">
+                <span class="control-mark"></span>
                 Апартаменты
               </label>
             </li>
@@ -127,7 +133,21 @@
             до
             </label>
           </div>
+
+          <div class="range">
+            <div class="range-scale">
+              <div class="range-bar">
+                <button class="range-toggle toggle-min">
+                  <span class="visually-hidden">Изменить минимальную цену.</span>
+                </button>
+                <button class="range-toggle toggle-max">
+                  <span class="visually-hidden">Изменить максимальную цену.</span>
+                </button>
+              </div>
+            </div>
+
         </fieldset>
+
 
         <div class="search-filter-group search-filter-buttons">
           <button class="button button-submit" type="submit">Применить</button>

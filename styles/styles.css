@@ -30,7 +30,7 @@ body {
   min-width: 1340px;
   background-color:#F2F2F2;
   color: #333333;
-  margin: 0;
+   margin: 0;
 }
 
 .visually-hidden {
@@ -342,7 +342,6 @@ body {
   color: #FFFFFF;
   padding-top: 92px;
   padding-bottom: 30px;
-  /* padding-left: 10px; */
   margin: 0 auto;
   position: relative;
   text-align: center;
@@ -1678,152 +1677,6 @@ background-color: #FFFFFF;
 .tooltip:focus-visible .tooltip-message{
   display: block;
 }
-
-
-
-/*
-
-
-
-
-.tooltip {
-  position: absolute;
-  margin-top: 200px;
-  margin-left: 395px;
-  width: 256px;
-  height: 143px;
-
-}
-
-.tooltip-toggle {
-  border: none;
-  background-color: #83B3D3;
-  width: 26px;
-  height: 26px;
-  padding: 7px 12px;
-  margin: 0;
-  display: block;
-  border-radius: 50%;
-}
-
-.tooltip-text {
-  background-color: #333333;
-  color: #FFFFFF;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 400;
-  text-transform: none;
-  padding:15px 18px 18px 22px;
-  border-radius: 10px;
-  width: 216px;
-  position: absolute;
-  bottom: 100%;
-  margin-bottom: 6px;
-  left: 50%;
-  transform: translateX(-95%) translateY(142%);
-  z-index: 1;
-  display: none;
-}
-
-.tooltip-icon {
-  width: 100%;
-  height: 100%;
-  color: #FFFFFF;
-  display: block;
-}
-
-.tooltip-toggle:hover .icon-tooltip {
-  color: #68A2CA;
-}
-
-.tooltip-toggle:hover + .tooltip-text,
-.tooltip-toggle:focus + .tooltip-text {
-  display: block;
-}
-
-
-.tooltip-text::after {
-  position: absolute;
-  top: -14px;
-  left: 50%;
-  width: 20px;
-  height: 20px;
-  background-image: url('../images/tooltip_triangle.svg');
-  background-size: 20px 20px;
-  content: "";
-}
-
-
-.kidsnumber {
-  display: flex;
-  width: 110px;
-  grid-row-start: 5;
-  grid-row-end: 5;
-  grid-column-start: 4;
-  grid-column-end: 5;
-  padding-bottom: 48px;
-}
-
-.modal-change {
-  width: 35px;
-  height: 48px;
-  background-color: #F2F2F2;
-  color: #7561574d;
-  border: none;
-  display: flex;
-  place-items: center;
-  cursor: pointer;
-}
-
-.modal-change:focus-within {
-  border: 3px solid #82B3D3;
-  border-radius: 4px;
-}
-
-.minus,
-.plus {
-  fill: #756157;
-  opacity: 0.3;
-  width: 14px;
-  height: 14px;
-}
-
-
-.plus:hover,
-.minus:hover {
-  fill:#000000;
-  opacity: 1;
-}
-
-.plus:focus-visible,
-.minus:focus-visible {
-  border: 3px solid #82B3D3;
-  border-radius: 4px;
-
-}
-
-.plus:focus,
-.minus:focus {
-  border: 3px solid #82B3D3;
-  border-radius: 4px;
- }
-
-
-
-
-.input-number {
-  height: 48px;
-  width: 40px;
-  border: none;
-  background-color: #F2F2F2;
-  padding: 0;
-  font-weight: inherit;
-  font-size: 18px;
-  text-align: center;
-
-}
-
-*/
 
 .checkout-input-field:hover,
 .checkin-input-field:hover {
